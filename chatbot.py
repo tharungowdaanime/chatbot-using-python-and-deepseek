@@ -10,7 +10,7 @@ class TantrumBot:
     response = requests.post(
     url="https://openrouter.ai/api/v1/chat/completions",
     headers={
-      "Authorization": "Bearer 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",
+      "Authorization": "Bearer your-api-key-here",
       "Content-Type": "application/json"
   },
     data=json.dumps({
